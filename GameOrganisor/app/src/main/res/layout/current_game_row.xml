@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1B5E20"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp"
+    >
+
+    <TextView
+        android:id="@+id/courtNumber_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/court_number"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/player1_textView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:text="@string/player_1"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/player2_textView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:text="@string/player_2"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/vs_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player1_textView"
+            android:gravity="center"
+            android:text="vs"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/player3_textView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/vs_textView"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:text="@string/player_3"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/player4_textView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/vs_textView"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="8dp"
+            android:text="@string/player_4"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+
+</LinearLayout>

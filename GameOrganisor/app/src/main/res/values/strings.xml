@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game Organisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="number_of_courts">1</string>
+    <string name="title_activity_game_session">Game Session</string>
+    <string name="default_player">Player Name</string>
+    <string name="btn_remove_player">Remove</string>
+    <string name="court_number">Court 1</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_3">Player 3</string>
+    <string name="player_4">Player 4</string>
+    <string name="title_activity_current_game">Game Result</string>
+</resources>
